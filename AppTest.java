@@ -19,6 +19,10 @@ public class AppTest
     {
         super( testName );
     }
+    public main()
+    {
+        
+    }
 
     /**
      * @return the suite of tests being tested
