@@ -10,7 +10,6 @@ public class Auto {
         Thread.sleep(2000); 
         driver.get("https://www.google.com/"); 
         driver.manage().deleteAllCookies();  
-
         driver.manage().window().maximize(); 
         String title = driver.getTitle(); 
         System.out.println("Title: "+title);
